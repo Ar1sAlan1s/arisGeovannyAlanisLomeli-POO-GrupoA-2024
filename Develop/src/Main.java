@@ -1,6 +1,69 @@
 
 public class Main {
     public static void main(String[] args) {
-
+        Persona P1 = new Persona("Mateo", 23, 'M');
+        System.out.println(P1.Nombree);
+        System.out.println(P1.Edad);
+        System.out.println(P1.Genero);
+        System.out.println("**************************j");
+        Persona P2 = new Persona("Sandy", 13, 'F');
+        System.out.println(P2.Nombree);
+        System.out.println(P2.Edad);
+        System.out.println(P2.Genero);
+        System.out.println("**************************");
+        Persona P3 = new Persona("Alejandro", 40, 'M');
+        System.out.println(P3.Nombree);
+        System.out.println(P3.Edad);
+        System.out.println(P3.Genero);
+        System.out.println("**************************");
+        Persona P4 = new Persona("Laura", 32, 'F');
+        System.out.println(P4.Nombree);
+        System.out.println(P4.Edad);
+        System.out.println(P4.Genero);
+        System.out.println("**************************");
+        libro l1 = new libro();
+        System.out.println(l1.Autor);
+        System.out.println(l1.titulo);
+        System.out.println(l1.Year);
+        System.out.println("**************************");
+        libro l2 = new libro();
+        System.out.println(l2.Autor);
+        System.out.println(l2.titulo);
+        System.out.println(l2.Year);
+        System.out.println("**************************");
+        libro l3 = new libro();
+        System.out.println(l3.Autor);
+        System.out.println(l3.titulo);
+        System.out.println(l3.Year);
+        System.out.println("**************************");
+        libro l4 = new libro();
+        System.out.println(l4.Autor);
+        System.out.println(l4.titulo);
+        System.out.println(l4.Year);
+        System.out.println("**************************");
+        Rectangulo R1 = new Rectangulo(3.0, 3.0);
+        System.out.println("El ancho es:" + R1.ancho);
+        System.out.println("El alto es:" + R1.alto);
+        R1.Area();
+        R1.Perimetro();
+        System.out.println("**************************");
+        Rectangulo R2 = new Rectangulo(4.5, 8.0);
+        System.out.println("El ancho es:" + R2.ancho);
+        System.out.println("El alto es:" + R2.alto);
+        R2.Area();
+        R2.Perimetro();
+        System.out.println("**************************");
+        Rectangulo R3 = new Rectangulo(3.5, 2.2);
+        System.out.println("El ancho es:" + R3.ancho);
+        System.out.println("El alto es:" + R3.alto);
+        R3.Area();
+        R3.Perimetro();
+        System.out.println("**************************");
+        Rectangulo R4 = new Rectangulo(7.7, 6.0);
+        System.out.println("El ancho es:" + R4.ancho);
+        System.out.println("El alto es:" + R4.alto);
+        R4.Area();
+        R4.Perimetro();
+        System.out.println("**************************");
     }
 }
