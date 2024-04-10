@@ -6,9 +6,9 @@ import java.time.LocalDate;
 
 public class Gerente extends Usuario {
 
-
-    public Gerente(String nombre, String apellido, Rol rol) {
-        super(nombre,apellido,rol);
+    private double sueldo;
+    public Gerente(String nombre, String apellido, Rol rol,LocalDate fechedenacimiento,String usuario,String contraseña) {
+        super(nombre,apellido,Rol.GERENTE,usuario,contraseña,fechedenacimiento);
 
     }
 
