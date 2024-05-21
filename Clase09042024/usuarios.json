@@ -1,0 +1,21 @@
+{
+  "Clientes": [],
+  "Gerente": [
+    {
+      "curp": "AAAAAAA",
+      "id": 1,
+      "nombre": "Aris",
+      "apellido": "alanis",
+      "rol": "Gerente",
+      "fechaNacimineto": "2005-11-21",
+      "contrasena": "1",
+      "nombreUsuario": "A",
+      "numeroTelefono": "2334234"
+    }
+  ],
+  "Trabajador": []
+}{
+  "Terror": [],
+  "Accion": [],
+  "Comedia": []
+}
